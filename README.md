@@ -33,3 +33,14 @@ The first version was built with Google Gemini Canvas. I then rewrote the calcul
 This is for illustration only and is not financial or tax advice. Your actual refund depends on your full tax situation. Check your FHSA room with the CRA, for example in My Account or on your notice of assessment, before contributing.
 
 © 2026 John K. All rights reserved.
+
+## Project structure
+
+```text
+fhsa-head-start/
+├── tests/             # Automated tests
+│   └── model.test.js  # Checks the model against an independent implementation
+├── index.html         # The page
+├── model.js           # Month-by-month model
+└── README.md          # This file
+```
